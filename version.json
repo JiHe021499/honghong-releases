@@ -1,30 +1,30 @@
 {
-  "versionName": "0.1.8",
-  "versionCode": 8,
+  "versionName": "0.1.9",
+  "versionCode": 9,
   "channel": "dev",
-  "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.8/honghong-0.1.8.apk",
-  "apkName": "honghong-0.1.8.apk",
-  "sha256": "ad6d4c283459d2a8dc8b34c9af10c5ba0d718876cfcd475a652d49b935cdd516",
-  "size": 17773937,
-  "changelog": "- 设计稿收尾：家庭共享卡按状态显示（未连云端/未加入/N 位家人同步中 + 家人最近记录），离线与待同步提示，网络恢复立即同步；安装包只打 arm64 并压缩 .so、去掉未用的 TFLite GPU 库（48MB→18MB）；新增后端一键重建脚本和手册（未执行）",
+  "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.9/honghong-0.1.9.apk",
+  "apkName": "honghong-0.1.9.apk",
+  "sha256": "770ab2653561c7d2e3abaddc6d4aacff50b58c75dcfeb1498fb90da453a5f5e3",
+  "size": 18033135,
+  "changelog": "- 锁屏快捷记录（Android）：常驻锁屏通知，不解锁即可开始/结束喂奶、睡觉、拍嗝（系统计时器走秒），换尿布一点即记；按钮在后台 isolate 处理，App 打开时立即同步界面；设置开关 + 通知权限 + 机型省电提示；设计稿 16",
   "minSupportedVersionCode": 0,
   "force": false,
-  "commit": "5b31f871af82c4a7d58b3477d796144610a7013d",
-  "publishedAt": "2026-10-13T16:06:12Z",
+  "commit": "0715ebad61cbc52e67c7a3182e988504cd119b55",
+  "publishedAt": "2026-10-13T17:44:54Z",
   "channels": {
     "dev": {
-      "versionName": "0.1.8",
-      "versionCode": 8,
+      "versionName": "0.1.9",
+      "versionCode": 9,
       "channel": "dev",
-      "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.8/honghong-0.1.8.apk",
-      "apkName": "honghong-0.1.8.apk",
-      "sha256": "ad6d4c283459d2a8dc8b34c9af10c5ba0d718876cfcd475a652d49b935cdd516",
-      "size": 17773937,
-      "changelog": "- 设计稿收尾：家庭共享卡按状态显示（未连云端/未加入/N 位家人同步中 + 家人最近记录），离线与待同步提示，网络恢复立即同步；安装包只打 arm64 并压缩 .so、去掉未用的 TFLite GPU 库（48MB→18MB）；新增后端一键重建脚本和手册（未执行）",
+      "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.9/honghong-0.1.9.apk",
+      "apkName": "honghong-0.1.9.apk",
+      "sha256": "770ab2653561c7d2e3abaddc6d4aacff50b58c75dcfeb1498fb90da453a5f5e3",
+      "size": 18033135,
+      "changelog": "- 锁屏快捷记录（Android）：常驻锁屏通知，不解锁即可开始/结束喂奶、睡觉、拍嗝（系统计时器走秒），换尿布一点即记；按钮在后台 isolate 处理，App 打开时立即同步界面；设置开关 + 通知权限 + 机型省电提示；设计稿 16",
       "minSupportedVersionCode": 0,
       "force": false,
-      "commit": "5b31f871af82c4a7d58b3477d796144610a7013d",
-      "publishedAt": "2026-10-13T16:06:12Z"
+      "commit": "0715ebad61cbc52e67c7a3182e988504cd119b55",
+      "publishedAt": "2026-10-13T17:44:54Z"
     }
   }
 }

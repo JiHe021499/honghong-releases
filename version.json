@@ -1,30 +1,30 @@
 {
-  "versionName": "0.1.6",
-  "versionCode": 6,
+  "versionName": "0.1.7",
+  "versionCode": 7,
   "channel": "dev",
-  "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.6/honghong-0.1.6.apk",
-  "apkName": "honghong-0.1.6.apk",
-  "sha256": "74f9b836de54f476239f5da6b34e13a9b11fac70103d4afdde92322b1376e0aa",
-  "size": 47773064,
-  "changelog": "- 全面换用设计师手绘图标：新增 AppIcon/HhIcon，按语义替换所有 emoji 和 Material 图标，设置项补充夜间、自动监听、导出、检查更新图标；更新截图",
+  "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.7/honghong-0.1.7.apk",
+  "apkName": "honghong-0.1.7.apk",
+  "sha256": "8f4cf4a88e6c8bafcb0829b80cbdfe472ea263884a2166b8504d48d429f9e057",
+  "size": 48345115,
+  "changelog": "- 第二阶段 App 端：家庭共享（邀请码加入、成员管理、护理记录/哭声判断同步，本地优先 + 最后写入者胜出 + 软删除）与参与改进（同意弹窗、仅 Wi-Fi 上传裁剪后的 16kHz 片段和标注、失败重试、删除我的数据）；新增迁移 0002 和本地 RLS 测试；drift schema v3；CI 通过 secret 注入 SUPABASE_URL/ANON_KEY（为空则离线）",
   "minSupportedVersionCode": 0,
   "force": false,
-  "commit": "97e9707be809c2fafab464f5508c7bfdd8dcd55b",
-  "publishedAt": "2026-10-13T15:04:23Z",
+  "commit": "cfd0f7fa7b2d407ff8b5b8a32ca6e9983b0e6a0f",
+  "publishedAt": "2026-10-13T15:35:22Z",
   "channels": {
     "dev": {
-      "versionName": "0.1.6",
-      "versionCode": 6,
+      "versionName": "0.1.7",
+      "versionCode": 7,
       "channel": "dev",
-      "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.6/honghong-0.1.6.apk",
-      "apkName": "honghong-0.1.6.apk",
-      "sha256": "74f9b836de54f476239f5da6b34e13a9b11fac70103d4afdde92322b1376e0aa",
-      "size": 47773064,
-      "changelog": "- 全面换用设计师手绘图标：新增 AppIcon/HhIcon，按语义替换所有 emoji 和 Material 图标，设置项补充夜间、自动监听、导出、检查更新图标；更新截图",
+      "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.7/honghong-0.1.7.apk",
+      "apkName": "honghong-0.1.7.apk",
+      "sha256": "8f4cf4a88e6c8bafcb0829b80cbdfe472ea263884a2166b8504d48d429f9e057",
+      "size": 48345115,
+      "changelog": "- 第二阶段 App 端：家庭共享（邀请码加入、成员管理、护理记录/哭声判断同步，本地优先 + 最后写入者胜出 + 软删除）与参与改进（同意弹窗、仅 Wi-Fi 上传裁剪后的 16kHz 片段和标注、失败重试、删除我的数据）；新增迁移 0002 和本地 RLS 测试；drift schema v3；CI 通过 secret 注入 SUPABASE_URL/ANON_KEY（为空则离线）",
       "minSupportedVersionCode": 0,
       "force": false,
-      "commit": "97e9707be809c2fafab464f5508c7bfdd8dcd55b",
-      "publishedAt": "2026-10-13T15:04:23Z"
+      "commit": "cfd0f7fa7b2d407ff8b5b8a32ca6e9983b0e6a0f",
+      "publishedAt": "2026-10-13T15:35:22Z"
     }
   }
 }

@@ -45,8 +45,13 @@ jobs:
           jq -r .changelog upload/meta.json > notes.md
           pre=""; [ "${{ steps.meta.outputs.channel }}" = "dev" ] && pre="--prerelease"
           gh release delete "$tag" -R "$REPO" -y --cleanup-tag 2>/dev/null || true
-          gh release create "$tag" "upload/${{ steps.meta.outputs.apk }}" -R "$REPO" --target main \
+          gh release create "$tag" -R "$REPO" --target main \
             --title "哄哄 ${{ steps.meta.outputs.name }}（${{ steps.meta.outputs.channel }}）" --notes-file notes.md $pre
+          for i in 1 2 3 4 5; do
+            gh release upload "$tag" "upload/${{ steps.meta.outputs.apk }}" -R "$REPO" --clobber && break
+            echo "上传失败，重试 $i"; sleep $((i * 5))
+          done
+          gh release view "$tag" -R "$REPO" --json assets -q '.assets[].name' | grep -q "${{ steps.meta.outputs.apk }}"
 
       - name: 更新 version.json
         run: |
@@ -77,5 +82,5 @@ jobs:
           gh release edit latest -R "$REPO" --notes "最新：v${{ steps.meta.outputs.name }}（${{ steps.meta.outputs.channel }}）。安装包见对应版本 Release。"
 
       - name: 删除上传分支
-        if: always()
+        if: success()
         run: git -C main push origin --delete "${{ github.ref_name }}" || true

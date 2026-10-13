@@ -1,30 +1,30 @@
 {
-  "versionName": "0.1.10",
-  "versionCode": 10,
+  "versionName": "0.1.11",
+  "versionCode": 11,
   "channel": "dev",
-  "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.10/honghong-0.1.10.apk",
-  "apkName": "honghong-0.1.10.apk",
-  "sha256": "70292e6e64eb7e23bdbdb3f41644ad4c5ef2cfc62b76ef7869a76d353655b8ce",
-  "size": 18908357,
-  "changelog": "- 桌面小部件（4×2、2×1）和下拉快捷开关（喂奶/睡觉 开关型、换尿布 一次性）：与锁屏快捷记录共用同一套动作和后台处理，任一入口操作后 App/通知/小部件/开关同时刷新；设置里可一键添加小部件；设计稿 17",
+  "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.11/honghong-0.1.11.apk",
+  "apkName": "honghong-0.1.11.apk",
+  "sha256": "3c5ebbc0a0b2d7363381a96429f2a1210bb2281d2f99b6f4ac87b820a901e0de",
+  "size": 18909049,
+  "changelog": "- 例行构建",
   "minSupportedVersionCode": 0,
   "force": false,
-  "commit": "38dafecc0d4fe3f78034d3d3c5339391bd43de49",
-  "publishedAt": "2026-10-13T22:13:54Z",
+  "commit": "638099fb716e4fa91e3826d671c9fd0f3a7b274e",
+  "publishedAt": "2026-10-13T22:35:01Z",
   "channels": {
     "dev": {
-      "versionName": "0.1.10",
-      "versionCode": 10,
+      "versionName": "0.1.11",
+      "versionCode": 11,
       "channel": "dev",
-      "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.10/honghong-0.1.10.apk",
-      "apkName": "honghong-0.1.10.apk",
-      "sha256": "70292e6e64eb7e23bdbdb3f41644ad4c5ef2cfc62b76ef7869a76d353655b8ce",
-      "size": 18908357,
-      "changelog": "- 桌面小部件（4×2、2×1）和下拉快捷开关（喂奶/睡觉 开关型、换尿布 一次性）：与锁屏快捷记录共用同一套动作和后台处理，任一入口操作后 App/通知/小部件/开关同时刷新；设置里可一键添加小部件；设计稿 17",
+      "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.11/honghong-0.1.11.apk",
+      "apkName": "honghong-0.1.11.apk",
+      "sha256": "3c5ebbc0a0b2d7363381a96429f2a1210bb2281d2f99b6f4ac87b820a901e0de",
+      "size": 18909049,
+      "changelog": "- 例行构建",
       "minSupportedVersionCode": 0,
       "force": false,
-      "commit": "38dafecc0d4fe3f78034d3d3c5339391bd43de49",
-      "publishedAt": "2026-10-13T22:13:54Z"
+      "commit": "638099fb716e4fa91e3826d671c9fd0f3a7b274e",
+      "publishedAt": "2026-10-13T22:35:01Z"
     }
   }
 }

@@ -1,30 +1,30 @@
 {
-  "versionName": "0.1.5",
-  "versionCode": 5,
+  "versionName": "0.1.6",
+  "versionCode": 6,
   "channel": "dev",
-  "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.5/honghong-0.1.5.apk",
-  "apkName": "honghong-0.1.5.apk",
-  "sha256": "3b410f6ae0896e684011f783a37903ea93c9c3ff785f3c74d252845dfce194a3",
-  "size": 47078620,
-  "changelog": "- 新增应用内更新：启动自动检查（6 小时节流）和手动检查，带进度下载、sha256 校验、调起安装，支持强制更新与镜像回退\n- CI：版本号按构建序号生成，固定发布签名，构建后推送到公开仓库 honghong-releases 发布\n- 按设计稿 v1.1 完善第一阶段界面：首页计时与结束面板、底部标签栏、录音波形、结果/反馈/规律页、夜间模式、我的页，补充交互与截图测试\n- 使用哄哄 logo 作为 Android/iOS 启动图标（含自适应图标）\n- 接入 YAMNet 端上哭声检测：自动监听开关打开时听到哭声自动开始录音\n- 新增数据导出：记录、哭声事件、反馈 JSON 加录音打包成 zip 分享\n- 护理记录改为开始/结束计时：进行中记录持久化、继续/保存、换尿布一点即记可改类型；数据库迁移到 v2 并加每类唯一进行中索引\n- 添加 Android APK 自动构建与发布工作流；应用名改为哄哄\n- 修复 Android 构建：compileSdk 升到 37，降低 Gradle 内存，放宽 Kotlin JVM 目标校验\n- 初始化 Flutter 工程：路由、Riverpod、drift 仓库、首页快捷记录、哭声判断闭环、麦克风权限和单元测试",
+  "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.6/honghong-0.1.6.apk",
+  "apkName": "honghong-0.1.6.apk",
+  "sha256": "74f9b836de54f476239f5da6b34e13a9b11fac70103d4afdde92322b1376e0aa",
+  "size": 47773064,
+  "changelog": "- 全面换用设计师手绘图标：新增 AppIcon/HhIcon，按语义替换所有 emoji 和 Material 图标，设置项补充夜间、自动监听、导出、检查更新图标；更新截图",
   "minSupportedVersionCode": 0,
   "force": false,
-  "commit": "dae1afc71861321fe5dd15129ada863ad01fbc75",
-  "publishedAt": "2026-10-13T14:37:33Z",
+  "commit": "97e9707be809c2fafab464f5508c7bfdd8dcd55b",
+  "publishedAt": "2026-10-13T15:04:23Z",
   "channels": {
     "dev": {
-      "versionName": "0.1.5",
-      "versionCode": 5,
+      "versionName": "0.1.6",
+      "versionCode": 6,
       "channel": "dev",
-      "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.5/honghong-0.1.5.apk",
-      "apkName": "honghong-0.1.5.apk",
-      "sha256": "3b410f6ae0896e684011f783a37903ea93c9c3ff785f3c74d252845dfce194a3",
-      "size": 47078620,
-      "changelog": "- 新增应用内更新：启动自动检查（6 小时节流）和手动检查，带进度下载、sha256 校验、调起安装，支持强制更新与镜像回退\n- CI：版本号按构建序号生成，固定发布签名，构建后推送到公开仓库 honghong-releases 发布\n- 按设计稿 v1.1 完善第一阶段界面：首页计时与结束面板、底部标签栏、录音波形、结果/反馈/规律页、夜间模式、我的页，补充交互与截图测试\n- 使用哄哄 logo 作为 Android/iOS 启动图标（含自适应图标）\n- 接入 YAMNet 端上哭声检测：自动监听开关打开时听到哭声自动开始录音\n- 新增数据导出：记录、哭声事件、反馈 JSON 加录音打包成 zip 分享\n- 护理记录改为开始/结束计时：进行中记录持久化、继续/保存、换尿布一点即记可改类型；数据库迁移到 v2 并加每类唯一进行中索引\n- 添加 Android APK 自动构建与发布工作流；应用名改为哄哄\n- 修复 Android 构建：compileSdk 升到 37，降低 Gradle 内存，放宽 Kotlin JVM 目标校验\n- 初始化 Flutter 工程：路由、Riverpod、drift 仓库、首页快捷记录、哭声判断闭环、麦克风权限和单元测试",
+      "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.6/honghong-0.1.6.apk",
+      "apkName": "honghong-0.1.6.apk",
+      "sha256": "74f9b836de54f476239f5da6b34e13a9b11fac70103d4afdde92322b1376e0aa",
+      "size": 47773064,
+      "changelog": "- 全面换用设计师手绘图标：新增 AppIcon/HhIcon，按语义替换所有 emoji 和 Material 图标，设置项补充夜间、自动监听、导出、检查更新图标；更新截图",
       "minSupportedVersionCode": 0,
       "force": false,
-      "commit": "dae1afc71861321fe5dd15129ada863ad01fbc75",
-      "publishedAt": "2026-10-13T14:37:33Z"
+      "commit": "97e9707be809c2fafab464f5508c7bfdd8dcd55b",
+      "publishedAt": "2026-10-13T15:04:23Z"
     }
   }
 }

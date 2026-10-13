@@ -1,30 +1,30 @@
 {
-  "versionName": "0.1.7",
-  "versionCode": 7,
+  "versionName": "0.1.8",
+  "versionCode": 8,
   "channel": "dev",
-  "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.7/honghong-0.1.7.apk",
-  "apkName": "honghong-0.1.7.apk",
-  "sha256": "8f4cf4a88e6c8bafcb0829b80cbdfe472ea263884a2166b8504d48d429f9e057",
-  "size": 48345115,
-  "changelog": "- 第二阶段 App 端：家庭共享（邀请码加入、成员管理、护理记录/哭声判断同步，本地优先 + 最后写入者胜出 + 软删除）与参与改进（同意弹窗、仅 Wi-Fi 上传裁剪后的 16kHz 片段和标注、失败重试、删除我的数据）；新增迁移 0002 和本地 RLS 测试；drift schema v3；CI 通过 secret 注入 SUPABASE_URL/ANON_KEY（为空则离线）",
+  "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.8/honghong-0.1.8.apk",
+  "apkName": "honghong-0.1.8.apk",
+  "sha256": "ad6d4c283459d2a8dc8b34c9af10c5ba0d718876cfcd475a652d49b935cdd516",
+  "size": 17773937,
+  "changelog": "- 设计稿收尾：家庭共享卡按状态显示（未连云端/未加入/N 位家人同步中 + 家人最近记录），离线与待同步提示，网络恢复立即同步；安装包只打 arm64 并压缩 .so、去掉未用的 TFLite GPU 库（48MB→18MB）；新增后端一键重建脚本和手册（未执行）",
   "minSupportedVersionCode": 0,
   "force": false,
-  "commit": "cfd0f7fa7b2d407ff8b5b8a32ca6e9983b0e6a0f",
-  "publishedAt": "2026-10-13T15:35:22Z",
+  "commit": "5b31f871af82c4a7d58b3477d796144610a7013d",
+  "publishedAt": "2026-10-13T16:06:12Z",
   "channels": {
     "dev": {
-      "versionName": "0.1.7",
-      "versionCode": 7,
+      "versionName": "0.1.8",
+      "versionCode": 8,
       "channel": "dev",
-      "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.7/honghong-0.1.7.apk",
-      "apkName": "honghong-0.1.7.apk",
-      "sha256": "8f4cf4a88e6c8bafcb0829b80cbdfe472ea263884a2166b8504d48d429f9e057",
-      "size": 48345115,
-      "changelog": "- 第二阶段 App 端：家庭共享（邀请码加入、成员管理、护理记录/哭声判断同步，本地优先 + 最后写入者胜出 + 软删除）与参与改进（同意弹窗、仅 Wi-Fi 上传裁剪后的 16kHz 片段和标注、失败重试、删除我的数据）；新增迁移 0002 和本地 RLS 测试；drift schema v3；CI 通过 secret 注入 SUPABASE_URL/ANON_KEY（为空则离线）",
+      "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.8/honghong-0.1.8.apk",
+      "apkName": "honghong-0.1.8.apk",
+      "sha256": "ad6d4c283459d2a8dc8b34c9af10c5ba0d718876cfcd475a652d49b935cdd516",
+      "size": 17773937,
+      "changelog": "- 设计稿收尾：家庭共享卡按状态显示（未连云端/未加入/N 位家人同步中 + 家人最近记录），离线与待同步提示，网络恢复立即同步；安装包只打 arm64 并压缩 .so、去掉未用的 TFLite GPU 库（48MB→18MB）；新增后端一键重建脚本和手册（未执行）",
       "minSupportedVersionCode": 0,
       "force": false,
-      "commit": "cfd0f7fa7b2d407ff8b5b8a32ca6e9983b0e6a0f",
-      "publishedAt": "2026-10-13T15:35:22Z"
+      "commit": "5b31f871af82c4a7d58b3477d796144610a7013d",
+      "publishedAt": "2026-10-13T16:06:12Z"
     }
   }
 }

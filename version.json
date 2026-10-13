@@ -1,30 +1,30 @@
 {
-  "versionName": "0.1.11",
-  "versionCode": 11,
+  "versionName": "0.1.12",
+  "versionCode": 12,
   "channel": "dev",
-  "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.11/honghong-0.1.11.apk",
-  "apkName": "honghong-0.1.11.apk",
-  "sha256": "3c5ebbc0a0b2d7363381a96429f2a1210bb2281d2f99b6f4ac87b820a901e0de",
-  "size": 18909049,
-  "changelog": "- 例行构建",
+  "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.12/honghong-0.1.12.apk",
+  "apkName": "honghong-0.1.12.apk",
+  "sha256": "39f6d307106629ad4a5f6dd29ab737cfb81252229aa1cf7d2466e814c0cf8fe3",
+  "size": 19197481,
+  "changelog": "- feat(logs): 全部记录补记 + 修改开始/结束时间 + 面板内删除；中文日期选择器；设计稿 18",
   "minSupportedVersionCode": 0,
   "force": false,
-  "commit": "638099fb716e4fa91e3826d671c9fd0f3a7b274e",
-  "publishedAt": "2026-10-13T22:35:01Z",
+  "commit": "8e50834cbcc17046d928c7d96f6b1c07a4310f5e",
+  "publishedAt": "2026-10-13T23:05:11Z",
   "channels": {
     "dev": {
-      "versionName": "0.1.11",
-      "versionCode": 11,
+      "versionName": "0.1.12",
+      "versionCode": 12,
       "channel": "dev",
-      "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.11/honghong-0.1.11.apk",
-      "apkName": "honghong-0.1.11.apk",
-      "sha256": "3c5ebbc0a0b2d7363381a96429f2a1210bb2281d2f99b6f4ac87b820a901e0de",
-      "size": 18909049,
-      "changelog": "- 例行构建",
+      "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.12/honghong-0.1.12.apk",
+      "apkName": "honghong-0.1.12.apk",
+      "sha256": "39f6d307106629ad4a5f6dd29ab737cfb81252229aa1cf7d2466e814c0cf8fe3",
+      "size": 19197481,
+      "changelog": "- feat(logs): 全部记录补记 + 修改开始/结束时间 + 面板内删除；中文日期选择器；设计稿 18",
       "minSupportedVersionCode": 0,
       "force": false,
-      "commit": "638099fb716e4fa91e3826d671c9fd0f3a7b274e",
-      "publishedAt": "2026-10-13T22:35:01Z"
+      "commit": "8e50834cbcc17046d928c7d96f6b1c07a4310f5e",
+      "publishedAt": "2026-10-13T23:05:11Z"
     }
   }
 }

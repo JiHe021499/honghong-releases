@@ -1,0 +1,83 @@
+name: 发布安装包
+
+# 私有仓库的 CI 把 APK 和元数据推到 upload/<版本> 分支（通过部署密钥），
+# 这里用本仓库自己的 GITHUB_TOKEN 创建 Release、更新 version.json，然后删掉上传分支。
+on:
+  push:
+    branches: ['upload/**']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          path: upload
+
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: main
+
+      - name: 读取元数据
+        id: meta
+        run: |
+          m=upload/meta.json
+          echo "name=$(jq -r .versionName $m)" >> "$GITHUB_OUTPUT"
+          echo "code=$(jq -r .versionCode $m)" >> "$GITHUB_OUTPUT"
+          echo "channel=$(jq -r .channel $m)" >> "$GITHUB_OUTPUT"
+          echo "apk=$(jq -r .apkName $m)" >> "$GITHUB_OUTPUT"
+
+      - name: 创建版本 Release
+        run: |
+          tag="v${{ steps.meta.outputs.name }}"
+          jq -r .changelog upload/meta.json > notes.md
+          pre=""; [ "${{ steps.meta.outputs.channel }}" = "dev" ] && pre="--prerelease"
+          gh release delete "$tag" -R "$REPO" -y --cleanup-tag 2>/dev/null || true
+          gh release create "$tag" "upload/${{ steps.meta.outputs.apk }}" -R "$REPO" --target main \
+            --title "哄哄 ${{ steps.meta.outputs.name }}（${{ steps.meta.outputs.channel }}）" --notes-file notes.md $pre
+
+      - name: 更新 version.json
+        run: |
+          name=${{ steps.meta.outputs.name }}
+          apk=${{ steps.meta.outputs.apk }}
+          url="https://github.com/$REPO/releases/download/v$name/$apk"
+          entry=$(jq --arg url "$url" '{versionName, versionCode, channel, apkUrl: $url, apkName, sha256, size, changelog, minSupportedVersionCode, force, commit, publishedAt}' upload/meta.json)
+          old=main/version.json; [ -s "$old" ] || echo '{}' > "$old"
+          jq --argjson e "$entry" '
+            ($e + {channels: ((.channels // {}) + {($e.channel): $e})})
+            | if $e.channel == "dev" and (.channels.stable != null) then . else . end' "$old" > v.json
+          cp v.json main/version.json
+          cd main
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add version.json
+          git commit -m "发布 $name（${{ steps.meta.outputs.channel }}）" || true
+          git push origin main
+
+      - name: 更新滚动 latest Release
+        run: |
+          if gh release view latest -R "$REPO" >/dev/null 2>&1; then
+            gh release upload latest v.json#version.json -R "$REPO" --clobber 2>/dev/null || \
+              (cp v.json version.json && gh release upload latest version.json -R "$REPO" --clobber)
+          else
+            cp v.json version.json
+            gh release create latest version.json -R "$REPO" --target main --title "最新版本信息" \
+              --notes "始终附带最新的 version.json。安装包见各版本 Release。" --latest=false
+          fi
+          gh release edit latest -R "$REPO" --notes "最新：v${{ steps.meta.outputs.name }}（${{ steps.meta.outputs.channel }}）。安装包见对应版本 Release。"
+
+      - name: 删除上传分支
+        if: always()
+        run: git -C main push origin --delete "${{ github.ref_name }}" || true

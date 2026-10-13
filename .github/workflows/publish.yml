@@ -56,8 +56,7 @@ jobs:
           entry=$(jq --arg url "$url" '{versionName, versionCode, channel, apkUrl: $url, apkName, sha256, size, changelog, minSupportedVersionCode, force, commit, publishedAt}' upload/meta.json)
           old=main/version.json; [ -s "$old" ] || echo '{}' > "$old"
           jq --argjson e "$entry" '
-            ($e + {channels: ((.channels // {}) + {($e.channel): $e})})
-            | if $e.channel == "dev" and (.channels.stable != null) then . else . end' "$old" > v.json
+            $e + {channels: ((.channels // {}) + {($e.channel): $e})}' "$old" > v.json
           cp v.json main/version.json
           cd main
           git config user.name "github-actions[bot]"
@@ -68,11 +67,10 @@ jobs:
 
       - name: 更新滚动 latest Release
         run: |
+          cp v.json version.json
           if gh release view latest -R "$REPO" >/dev/null 2>&1; then
-            gh release upload latest v.json#version.json -R "$REPO" --clobber 2>/dev/null || \
-              (cp v.json version.json && gh release upload latest version.json -R "$REPO" --clobber)
+            gh release upload latest version.json -R "$REPO" --clobber
           else
-            cp v.json version.json
             gh release create latest version.json -R "$REPO" --target main --title "最新版本信息" \
               --notes "始终附带最新的 version.json。安装包见各版本 Release。" --latest=false
           fi

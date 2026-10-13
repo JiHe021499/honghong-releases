@@ -1,30 +1,30 @@
 {
-  "versionName": "0.1.9",
-  "versionCode": 9,
+  "versionName": "0.1.10",
+  "versionCode": 10,
   "channel": "dev",
-  "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.9/honghong-0.1.9.apk",
-  "apkName": "honghong-0.1.9.apk",
-  "sha256": "770ab2653561c7d2e3abaddc6d4aacff50b58c75dcfeb1498fb90da453a5f5e3",
-  "size": 18033135,
-  "changelog": "- 锁屏快捷记录（Android）：常驻锁屏通知，不解锁即可开始/结束喂奶、睡觉、拍嗝（系统计时器走秒），换尿布一点即记；按钮在后台 isolate 处理，App 打开时立即同步界面；设置开关 + 通知权限 + 机型省电提示；设计稿 16",
+  "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.10/honghong-0.1.10.apk",
+  "apkName": "honghong-0.1.10.apk",
+  "sha256": "70292e6e64eb7e23bdbdb3f41644ad4c5ef2cfc62b76ef7869a76d353655b8ce",
+  "size": 18908357,
+  "changelog": "- 桌面小部件（4×2、2×1）和下拉快捷开关（喂奶/睡觉 开关型、换尿布 一次性）：与锁屏快捷记录共用同一套动作和后台处理，任一入口操作后 App/通知/小部件/开关同时刷新；设置里可一键添加小部件；设计稿 17",
   "minSupportedVersionCode": 0,
   "force": false,
-  "commit": "0715ebad61cbc52e67c7a3182e988504cd119b55",
-  "publishedAt": "2026-10-13T17:44:54Z",
+  "commit": "38dafecc0d4fe3f78034d3d3c5339391bd43de49",
+  "publishedAt": "2026-10-13T22:13:54Z",
   "channels": {
     "dev": {
-      "versionName": "0.1.9",
-      "versionCode": 9,
+      "versionName": "0.1.10",
+      "versionCode": 10,
       "channel": "dev",
-      "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.9/honghong-0.1.9.apk",
-      "apkName": "honghong-0.1.9.apk",
-      "sha256": "770ab2653561c7d2e3abaddc6d4aacff50b58c75dcfeb1498fb90da453a5f5e3",
-      "size": 18033135,
-      "changelog": "- 锁屏快捷记录（Android）：常驻锁屏通知，不解锁即可开始/结束喂奶、睡觉、拍嗝（系统计时器走秒），换尿布一点即记；按钮在后台 isolate 处理，App 打开时立即同步界面；设置开关 + 通知权限 + 机型省电提示；设计稿 16",
+      "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.10/honghong-0.1.10.apk",
+      "apkName": "honghong-0.1.10.apk",
+      "sha256": "70292e6e64eb7e23bdbdb3f41644ad4c5ef2cfc62b76ef7869a76d353655b8ce",
+      "size": 18908357,
+      "changelog": "- 桌面小部件（4×2、2×1）和下拉快捷开关（喂奶/睡觉 开关型、换尿布 一次性）：与锁屏快捷记录共用同一套动作和后台处理，任一入口操作后 App/通知/小部件/开关同时刷新；设置里可一键添加小部件；设计稿 17",
       "minSupportedVersionCode": 0,
       "force": false,
-      "commit": "0715ebad61cbc52e67c7a3182e988504cd119b55",
-      "publishedAt": "2026-10-13T17:44:54Z"
+      "commit": "38dafecc0d4fe3f78034d3d3c5339391bd43de49",
+      "publishedAt": "2026-10-13T22:13:54Z"
     }
   }
 }

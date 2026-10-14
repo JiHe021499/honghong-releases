@@ -1,30 +1,30 @@
 {
-  "versionName": "0.1.12",
-  "versionCode": 12,
+  "versionName": "0.1.13",
+  "versionCode": 13,
   "channel": "dev",
-  "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.12/honghong-0.1.12.apk",
-  "apkName": "honghong-0.1.12.apk",
-  "sha256": "39f6d307106629ad4a5f6dd29ab737cfb81252229aa1cf7d2466e814c0cf8fe3",
-  "size": 19197481,
-  "changelog": "- feat(logs): 全部记录补记 + 修改开始/结束时间 + 面板内删除；中文日期选择器；设计稿 18",
+  "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.13/honghong-0.1.13.apk",
+  "apkName": "honghong-0.1.13.apk",
+  "sha256": "e999513a4324a9e02757936eec90b191dbfece89938161b71934c5697735e732",
+  "size": 23202510,
+  "changelog": "- feat(ml): 第三阶段——YAMNet embedding 训练管线（donateacry, 分组 CV 诚实评估）、cls-1 分类头、ModelPredictor 融合 + 端上个性化、模型下发（sha256/自检/热切换/回滚）、迁移 0003",
   "minSupportedVersionCode": 0,
   "force": false,
-  "commit": "8e50834cbcc17046d928c7d96f6b1c07a4310f5e",
-  "publishedAt": "2026-10-13T23:05:11Z",
+  "commit": "a9d6dd69aa37482968a358a91af5715ec93fb556",
+  "publishedAt": "2026-10-14T00:40:56Z",
   "channels": {
     "dev": {
-      "versionName": "0.1.12",
-      "versionCode": 12,
+      "versionName": "0.1.13",
+      "versionCode": 13,
       "channel": "dev",
-      "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.12/honghong-0.1.12.apk",
-      "apkName": "honghong-0.1.12.apk",
-      "sha256": "39f6d307106629ad4a5f6dd29ab737cfb81252229aa1cf7d2466e814c0cf8fe3",
-      "size": 19197481,
-      "changelog": "- feat(logs): 全部记录补记 + 修改开始/结束时间 + 面板内删除；中文日期选择器；设计稿 18",
+      "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.13/honghong-0.1.13.apk",
+      "apkName": "honghong-0.1.13.apk",
+      "sha256": "e999513a4324a9e02757936eec90b191dbfece89938161b71934c5697735e732",
+      "size": 23202510,
+      "changelog": "- feat(ml): 第三阶段——YAMNet embedding 训练管线（donateacry, 分组 CV 诚实评估）、cls-1 分类头、ModelPredictor 融合 + 端上个性化、模型下发（sha256/自检/热切换/回滚）、迁移 0003",
       "minSupportedVersionCode": 0,
       "force": false,
-      "commit": "8e50834cbcc17046d928c7d96f6b1c07a4310f5e",
-      "publishedAt": "2026-10-13T23:05:11Z"
+      "commit": "a9d6dd69aa37482968a358a91af5715ec93fb556",
+      "publishedAt": "2026-10-14T00:40:56Z"
     }
   }
 }

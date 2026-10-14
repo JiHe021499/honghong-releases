@@ -1,30 +1,30 @@
 {
-  "versionName": "0.1.16",
-  "versionCode": 16,
+  "versionName": "0.1.17",
+  "versionCode": 17,
   "channel": "dev",
-  "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.16/honghong-0.1.16.apk",
-  "apkName": "honghong-0.1.16.apk",
-  "sha256": "90790e0984304431539ebda2b085133524b5e5424cd9b49179e601fab5b3d422",
-  "size": 23203978,
-  "changelog": "- iOS: 构建配置、WidgetKit 小组件/锁屏/实时活动/控制中心、待执行队列、未签名 CI",
+  "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.17/honghong-0.1.17.apk",
+  "apkName": "honghong-0.1.17.apk",
+  "sha256": "071dfe35263b07ef599c66f1be87a81c9b79e7788c203cb70fcc1ffe629c7ca2",
+  "size": 23210662,
+  "changelog": "- 哭声分析移到后台 isolate，不卡界面；分析中过渡动画（最少 600ms，尊重减少动态效果）",
   "minSupportedVersionCode": 0,
   "force": false,
-  "commit": "9140fa8757d322139b1bbfc7b7089ab9731a09b3",
-  "publishedAt": "2026-10-14T02:28:46Z",
+  "commit": "32d0d9f972938e0982edca66058fbf1f3cfd4c72",
+  "publishedAt": "2026-10-14T03:10:03Z",
   "channels": {
     "dev": {
-      "versionName": "0.1.16",
-      "versionCode": 16,
+      "versionName": "0.1.17",
+      "versionCode": 17,
       "channel": "dev",
-      "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.16/honghong-0.1.16.apk",
-      "apkName": "honghong-0.1.16.apk",
-      "sha256": "90790e0984304431539ebda2b085133524b5e5424cd9b49179e601fab5b3d422",
-      "size": 23203978,
-      "changelog": "- iOS: 构建配置、WidgetKit 小组件/锁屏/实时活动/控制中心、待执行队列、未签名 CI",
+      "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.17/honghong-0.1.17.apk",
+      "apkName": "honghong-0.1.17.apk",
+      "sha256": "071dfe35263b07ef599c66f1be87a81c9b79e7788c203cb70fcc1ffe629c7ca2",
+      "size": 23210662,
+      "changelog": "- 哭声分析移到后台 isolate，不卡界面；分析中过渡动画（最少 600ms，尊重减少动态效果）",
       "minSupportedVersionCode": 0,
       "force": false,
-      "commit": "9140fa8757d322139b1bbfc7b7089ab9731a09b3",
-      "publishedAt": "2026-10-14T02:28:46Z"
+      "commit": "32d0d9f972938e0982edca66058fbf1f3cfd4c72",
+      "publishedAt": "2026-10-14T03:10:03Z"
     }
   }
 }

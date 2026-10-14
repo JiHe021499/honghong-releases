@@ -1,30 +1,30 @@
 {
-  "versionName": "0.1.30-dev",
-  "versionCode": 30,
+  "versionName": "0.1.33-dev",
+  "versionCode": 33,
   "channel": "dev",
-  "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.30-dev/honghong-0.1.30-dev.apk",
-  "apkName": "honghong-0.1.30-dev.apk",
-  "sha256": "63535ca2600c1d3ad3da28a5f033ec9497cdc52a95e7b8625e0594ab97fdab89",
-  "size": 23406372,
-  "changelog": "- sha256 只认 GitHub 原件；本站副本只提供同版本的下载地址；GitHub 不可达时提示稍后重试并记本机埋点\n- 应用内更新优先读本站 version.json 副本并从 localApkUrl 下载，失败回退 GitHub 和镜像，均校验 sha256；兼容没有 localApkUrl 的情况",
+  "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.33-dev/honghong-0.1.33-dev.apk",
+  "apkName": "honghong-0.1.33-dev.apk",
+  "sha256": "e48b436ec4b165c707c816c7f3e820e1300e6fa20fc68cc442a18fbf40922d64",
+  "size": 23407012,
+  "changelog": "- 兼容线上未跑 0004 的 push_baby——带 gender 得到 PGRST202 时退回 4 参数，避免家庭同步整体失败",
   "minSupportedVersionCode": 0,
   "force": false,
-  "commit": "feb2ae889c16fdfb1702dfeebf692c3a09c79c78",
-  "publishedAt": "2026-10-14T11:42:52Z",
+  "commit": "a453aa7499f389d36d5512ab5faa670955dcf111",
+  "publishedAt": "2026-10-14T16:33:06Z",
   "channels": {
     "dev": {
-      "versionName": "0.1.30-dev",
-      "versionCode": 30,
+      "versionName": "0.1.33-dev",
+      "versionCode": 33,
       "channel": "dev",
-      "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.30-dev/honghong-0.1.30-dev.apk",
-      "apkName": "honghong-0.1.30-dev.apk",
-      "sha256": "63535ca2600c1d3ad3da28a5f033ec9497cdc52a95e7b8625e0594ab97fdab89",
-      "size": 23406372,
-      "changelog": "- sha256 只认 GitHub 原件；本站副本只提供同版本的下载地址；GitHub 不可达时提示稍后重试并记本机埋点\n- 应用内更新优先读本站 version.json 副本并从 localApkUrl 下载，失败回退 GitHub 和镜像，均校验 sha256；兼容没有 localApkUrl 的情况",
+      "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.33-dev/honghong-0.1.33-dev.apk",
+      "apkName": "honghong-0.1.33-dev.apk",
+      "sha256": "e48b436ec4b165c707c816c7f3e820e1300e6fa20fc68cc442a18fbf40922d64",
+      "size": 23407012,
+      "changelog": "- 兼容线上未跑 0004 的 push_baby——带 gender 得到 PGRST202 时退回 4 参数，避免家庭同步整体失败",
       "minSupportedVersionCode": 0,
       "force": false,
-      "commit": "feb2ae889c16fdfb1702dfeebf692c3a09c79c78",
-      "publishedAt": "2026-10-14T11:42:52Z"
+      "commit": "a453aa7499f389d36d5512ab5faa670955dcf111",
+      "publishedAt": "2026-10-14T16:33:06Z"
     }
   }
 }

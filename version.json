@@ -1,30 +1,30 @@
 {
-  "versionName": "0.1.19",
-  "versionCode": 19,
+  "versionName": "0.1.30-dev",
+  "versionCode": 30,
   "channel": "dev",
-  "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.19/honghong-0.1.19.apk",
-  "apkName": "honghong-0.1.19.apk",
-  "sha256": "418a779635f61fd33629f0d4e153a34902dae74ea778a12636f425d232d64437",
-  "size": 23401036,
-  "changelog": "- test: 固定测试里的“现在”，修复 CI（UTC）下补记校验失败及近午夜时的时间线用例\n- feat(diary): 小结失败满 3 次时首页入口卡显示“小结未生成”，点进小结页重试；上线清单标注已定事项\n- feat(diary): P6 本机埋点（一键保存率/卡片修改率/识别失败率）、隐私说明与免责声明入口、隐私增补草稿与上线清单\n- feat(diary): 失败满 3 次的小结可手动重试；关闭联网识别后打字页提示可在设置开启\n- test(golden): 引入 AppClock，截图测试固定时间起点，修复随运行时刻漂移的基准图\n- feat(diary): P5 今日小结（21:00 前台触发/补昨天/幂等/空日/失败重试）、小结页屏 21–23、设置联网语音识别开关\n- 妈咪日记：讯飞联网识别兜底（网关 /diary-asr WebSocket 中转、客户端告知与回退、架构文档更新）\n- 妈咪日记 P4：日记时间线（日期切换、今日小结、编辑/二次确认删除、空状态）与查看全部入口\n- 妈咪日记 P3：客户端主流程（入口卡、性别补问、按住说话/文字输入、确认页、保存事务）\n- 测试：已同步的性别可改成另一个性别（Dart 同步 + SQL）\n- 妈咪日记 P1 数据层：drift v5（babies.gender、care_logs.source/diaryCardId、3 张新表）、0004_diary.sql、DiaryRepository 与时间线合并查询、迁移/去重测试\n- 妈咪日记 P0：ai-gateway 服务骨架（JWT 校验/限流/schema）、供应商评测脚本与合规清单、导出新图标；纳入设计稿与架构文档",
+  "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.30-dev/honghong-0.1.30-dev.apk",
+  "apkName": "honghong-0.1.30-dev.apk",
+  "sha256": "63535ca2600c1d3ad3da28a5f033ec9497cdc52a95e7b8625e0594ab97fdab89",
+  "size": 23406372,
+  "changelog": "- sha256 只认 GitHub 原件；本站副本只提供同版本的下载地址；GitHub 不可达时提示稍后重试并记本机埋点\n- 应用内更新优先读本站 version.json 副本并从 localApkUrl 下载，失败回退 GitHub 和镜像，均校验 sha256；兼容没有 localApkUrl 的情况",
   "minSupportedVersionCode": 0,
   "force": false,
-  "commit": "40fc1556bf668e5ca81a0e9c4b4d02d728e05049",
-  "publishedAt": "2026-10-14T06:03:04Z",
+  "commit": "feb2ae889c16fdfb1702dfeebf692c3a09c79c78",
+  "publishedAt": "2026-10-14T11:42:52Z",
   "channels": {
     "dev": {
-      "versionName": "0.1.19",
-      "versionCode": 19,
+      "versionName": "0.1.30-dev",
+      "versionCode": 30,
       "channel": "dev",
-      "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.19/honghong-0.1.19.apk",
-      "apkName": "honghong-0.1.19.apk",
-      "sha256": "418a779635f61fd33629f0d4e153a34902dae74ea778a12636f425d232d64437",
-      "size": 23401036,
-      "changelog": "- test: 固定测试里的“现在”，修复 CI（UTC）下补记校验失败及近午夜时的时间线用例\n- feat(diary): 小结失败满 3 次时首页入口卡显示“小结未生成”，点进小结页重试；上线清单标注已定事项\n- feat(diary): P6 本机埋点（一键保存率/卡片修改率/识别失败率）、隐私说明与免责声明入口、隐私增补草稿与上线清单\n- feat(diary): 失败满 3 次的小结可手动重试；关闭联网识别后打字页提示可在设置开启\n- test(golden): 引入 AppClock，截图测试固定时间起点，修复随运行时刻漂移的基准图\n- feat(diary): P5 今日小结（21:00 前台触发/补昨天/幂等/空日/失败重试）、小结页屏 21–23、设置联网语音识别开关\n- 妈咪日记：讯飞联网识别兜底（网关 /diary-asr WebSocket 中转、客户端告知与回退、架构文档更新）\n- 妈咪日记 P4：日记时间线（日期切换、今日小结、编辑/二次确认删除、空状态）与查看全部入口\n- 妈咪日记 P3：客户端主流程（入口卡、性别补问、按住说话/文字输入、确认页、保存事务）\n- 测试：已同步的性别可改成另一个性别（Dart 同步 + SQL）\n- 妈咪日记 P1 数据层：drift v5（babies.gender、care_logs.source/diaryCardId、3 张新表）、0004_diary.sql、DiaryRepository 与时间线合并查询、迁移/去重测试\n- 妈咪日记 P0：ai-gateway 服务骨架（JWT 校验/限流/schema）、供应商评测脚本与合规清单、导出新图标；纳入设计稿与架构文档",
+      "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.30-dev/honghong-0.1.30-dev.apk",
+      "apkName": "honghong-0.1.30-dev.apk",
+      "sha256": "63535ca2600c1d3ad3da28a5f033ec9497cdc52a95e7b8625e0594ab97fdab89",
+      "size": 23406372,
+      "changelog": "- sha256 只认 GitHub 原件；本站副本只提供同版本的下载地址；GitHub 不可达时提示稍后重试并记本机埋点\n- 应用内更新优先读本站 version.json 副本并从 localApkUrl 下载，失败回退 GitHub 和镜像，均校验 sha256；兼容没有 localApkUrl 的情况",
       "minSupportedVersionCode": 0,
       "force": false,
-      "commit": "40fc1556bf668e5ca81a0e9c4b4d02d728e05049",
-      "publishedAt": "2026-10-14T06:03:04Z"
+      "commit": "feb2ae889c16fdfb1702dfeebf692c3a09c79c78",
+      "publishedAt": "2026-10-14T11:42:52Z"
     }
   }
 }

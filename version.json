@@ -1,30 +1,30 @@
 {
-  "versionName": "0.1.13",
-  "versionCode": 13,
+  "versionName": "0.1.15",
+  "versionCode": 15,
   "channel": "dev",
-  "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.13/honghong-0.1.13.apk",
-  "apkName": "honghong-0.1.13.apk",
-  "sha256": "e999513a4324a9e02757936eec90b191dbfece89938161b71934c5697735e732",
-  "size": 23202510,
-  "changelog": "- feat(ml): 第三阶段——YAMNet embedding 训练管线（donateacry, 分组 CV 诚实评估）、cls-1 分类头、ModelPredictor 融合 + 端上个性化、模型下发（sha256/自检/热切换/回滚）、迁移 0003",
+  "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.15/honghong-0.1.15.apk",
+  "apkName": "honghong-0.1.15.apk",
+  "sha256": "355abbd337741e9d3456f4f1761ae8009edc8caa63f2abdd6a811449f4f1e6cf",
+  "size": 23203646,
+  "changelog": "- test: 无中文字体环境（CI）不检查时间列对齐\n- fix(ui): 记录行改两行布局（类型·关键细节 / 次要信息），时间列右对齐显示起止，紧凑时长，大字号自动换行；首页与全部记录共用 CareLogRow；360dp 多字号 golden",
   "minSupportedVersionCode": 0,
   "force": false,
-  "commit": "a9d6dd69aa37482968a358a91af5715ec93fb556",
-  "publishedAt": "2026-10-14T00:40:56Z",
+  "commit": "53d185554f35945ab28892959515bb3e1b0aa3a0",
+  "publishedAt": "2026-10-14T01:45:16Z",
   "channels": {
     "dev": {
-      "versionName": "0.1.13",
-      "versionCode": 13,
+      "versionName": "0.1.15",
+      "versionCode": 15,
       "channel": "dev",
-      "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.13/honghong-0.1.13.apk",
-      "apkName": "honghong-0.1.13.apk",
-      "sha256": "e999513a4324a9e02757936eec90b191dbfece89938161b71934c5697735e732",
-      "size": 23202510,
-      "changelog": "- feat(ml): 第三阶段——YAMNet embedding 训练管线（donateacry, 分组 CV 诚实评估）、cls-1 分类头、ModelPredictor 融合 + 端上个性化、模型下发（sha256/自检/热切换/回滚）、迁移 0003",
+      "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.15/honghong-0.1.15.apk",
+      "apkName": "honghong-0.1.15.apk",
+      "sha256": "355abbd337741e9d3456f4f1761ae8009edc8caa63f2abdd6a811449f4f1e6cf",
+      "size": 23203646,
+      "changelog": "- test: 无中文字体环境（CI）不检查时间列对齐\n- fix(ui): 记录行改两行布局（类型·关键细节 / 次要信息），时间列右对齐显示起止，紧凑时长，大字号自动换行；首页与全部记录共用 CareLogRow；360dp 多字号 golden",
       "minSupportedVersionCode": 0,
       "force": false,
-      "commit": "a9d6dd69aa37482968a358a91af5715ec93fb556",
-      "publishedAt": "2026-10-14T00:40:56Z"
+      "commit": "53d185554f35945ab28892959515bb3e1b0aa3a0",
+      "publishedAt": "2026-10-14T01:45:16Z"
     }
   }
 }

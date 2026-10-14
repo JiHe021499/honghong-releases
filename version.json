@@ -1,30 +1,30 @@
 {
-  "versionName": "0.1.15",
-  "versionCode": 15,
+  "versionName": "0.1.16",
+  "versionCode": 16,
   "channel": "dev",
-  "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.15/honghong-0.1.15.apk",
-  "apkName": "honghong-0.1.15.apk",
-  "sha256": "355abbd337741e9d3456f4f1761ae8009edc8caa63f2abdd6a811449f4f1e6cf",
-  "size": 23203646,
-  "changelog": "- test: 无中文字体环境（CI）不检查时间列对齐\n- fix(ui): 记录行改两行布局（类型·关键细节 / 次要信息），时间列右对齐显示起止，紧凑时长，大字号自动换行；首页与全部记录共用 CareLogRow；360dp 多字号 golden",
+  "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.16/honghong-0.1.16.apk",
+  "apkName": "honghong-0.1.16.apk",
+  "sha256": "90790e0984304431539ebda2b085133524b5e5424cd9b49179e601fab5b3d422",
+  "size": 23203978,
+  "changelog": "- iOS: 构建配置、WidgetKit 小组件/锁屏/实时活动/控制中心、待执行队列、未签名 CI",
   "minSupportedVersionCode": 0,
   "force": false,
-  "commit": "53d185554f35945ab28892959515bb3e1b0aa3a0",
-  "publishedAt": "2026-10-14T01:45:16Z",
+  "commit": "9140fa8757d322139b1bbfc7b7089ab9731a09b3",
+  "publishedAt": "2026-10-14T02:28:46Z",
   "channels": {
     "dev": {
-      "versionName": "0.1.15",
-      "versionCode": 15,
+      "versionName": "0.1.16",
+      "versionCode": 16,
       "channel": "dev",
-      "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.15/honghong-0.1.15.apk",
-      "apkName": "honghong-0.1.15.apk",
-      "sha256": "355abbd337741e9d3456f4f1761ae8009edc8caa63f2abdd6a811449f4f1e6cf",
-      "size": 23203646,
-      "changelog": "- test: 无中文字体环境（CI）不检查时间列对齐\n- fix(ui): 记录行改两行布局（类型·关键细节 / 次要信息），时间列右对齐显示起止，紧凑时长，大字号自动换行；首页与全部记录共用 CareLogRow；360dp 多字号 golden",
+      "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.16/honghong-0.1.16.apk",
+      "apkName": "honghong-0.1.16.apk",
+      "sha256": "90790e0984304431539ebda2b085133524b5e5424cd9b49179e601fab5b3d422",
+      "size": 23203978,
+      "changelog": "- iOS: 构建配置、WidgetKit 小组件/锁屏/实时活动/控制中心、待执行队列、未签名 CI",
       "minSupportedVersionCode": 0,
       "force": false,
-      "commit": "53d185554f35945ab28892959515bb3e1b0aa3a0",
-      "publishedAt": "2026-10-14T01:45:16Z"
+      "commit": "9140fa8757d322139b1bbfc7b7089ab9731a09b3",
+      "publishedAt": "2026-10-14T02:28:46Z"
     }
   }
 }

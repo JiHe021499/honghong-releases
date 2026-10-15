@@ -1,30 +1,30 @@
 {
-  "versionName": "0.1.44-dev",
-  "versionCode": 44,
+  "versionName": "0.1.46-dev",
+  "versionCode": 46,
   "channel": "dev",
-  "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.44-dev/honghong-0.1.44-dev.apk",
-  "apkName": "honghong-0.1.44-dev.apk",
-  "sha256": "df91c8cc4bd75747b6ae2c62194f4fe13e3acff31ecc9d6ab98c74b9884eb4e4",
-  "size": 23421148,
-  "changelog": "- 发布构建缺 AI_GATEWAY_URL 导致按住说话联网识别/整理不可用；默认取 Supabase 同域 /ai/ (#20)",
+  "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.46-dev/honghong-0.1.46-dev.apk",
+  "apkName": "honghong-0.1.46-dev.apk",
+  "sha256": "3186866886f1c0ed14c3caed73ad3628c60c3ed1a09758921db0c737c89fe130",
+  "size": 23436968,
+  "changelog": "- 睡觉中哭醒提示一键结束睡眠（前台、限次、冷却、撤销/改时间、家人同步收起） (#21)",
   "minSupportedVersionCode": 0,
   "force": false,
-  "commit": "557c9cb59e699af42228c367cfa43f93f7751c0f",
-  "publishedAt": "2026-10-15T09:22:32Z",
+  "commit": "f691d0a7dc6a221b110413ef9aab4f5ce43ca960",
+  "publishedAt": "2026-10-15T09:41:46Z",
   "channels": {
     "dev": {
-      "versionName": "0.1.44-dev",
-      "versionCode": 44,
+      "versionName": "0.1.46-dev",
+      "versionCode": 46,
       "channel": "dev",
-      "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.44-dev/honghong-0.1.44-dev.apk",
-      "apkName": "honghong-0.1.44-dev.apk",
-      "sha256": "df91c8cc4bd75747b6ae2c62194f4fe13e3acff31ecc9d6ab98c74b9884eb4e4",
-      "size": 23421148,
-      "changelog": "- 发布构建缺 AI_GATEWAY_URL 导致按住说话联网识别/整理不可用；默认取 Supabase 同域 /ai/ (#20)",
+      "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.46-dev/honghong-0.1.46-dev.apk",
+      "apkName": "honghong-0.1.46-dev.apk",
+      "sha256": "3186866886f1c0ed14c3caed73ad3628c60c3ed1a09758921db0c737c89fe130",
+      "size": 23436968,
+      "changelog": "- 睡觉中哭醒提示一键结束睡眠（前台、限次、冷却、撤销/改时间、家人同步收起） (#21)",
       "minSupportedVersionCode": 0,
       "force": false,
-      "commit": "557c9cb59e699af42228c367cfa43f93f7751c0f",
-      "publishedAt": "2026-10-15T09:22:32Z"
+      "commit": "f691d0a7dc6a221b110413ef9aab4f5ce43ca960",
+      "publishedAt": "2026-10-15T09:41:46Z"
     }
   }
 }

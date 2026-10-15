@@ -1,30 +1,30 @@
 {
-  "versionName": "0.1.33-dev",
-  "versionCode": 33,
+  "versionName": "0.1.39-dev",
+  "versionCode": 39,
   "channel": "dev",
-  "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.33-dev/honghong-0.1.33-dev.apk",
-  "apkName": "honghong-0.1.33-dev.apk",
-  "sha256": "e48b436ec4b165c707c816c7f3e820e1300e6fa20fc68cc442a18fbf40922d64",
-  "size": 23407012,
-  "changelog": "- 兼容线上未跑 0004 的 push_baby——带 gender 得到 PGRST202 时退回 4 参数，避免家庭同步整体失败",
+  "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.39-dev/honghong-0.1.39-dev.apk",
+  "apkName": "honghong-0.1.39-dev.apk",
+  "sha256": "d9933056546994f49e38542e3372b427e746508a95154827fa17e45b536d96a1",
+  "size": 23419044,
+  "changelog": "- Hh 逐字段插值，日夜切换整页 400ms 过渡，减少动态时瞬切\n- 首页动效（按钮按压/呼吸光环、快捷区与状态栏切换、新记录高亮、日夜图标、减少动态与语义）",
   "minSupportedVersionCode": 0,
   "force": false,
-  "commit": "a453aa7499f389d36d5512ab5faa670955dcf111",
-  "publishedAt": "2026-10-14T16:33:06Z",
+  "commit": "9705f9216a671bfbb829dd05db5277fe5f1c6c5b",
+  "publishedAt": "2026-10-15T08:31:09Z",
   "channels": {
     "dev": {
-      "versionName": "0.1.33-dev",
-      "versionCode": 33,
+      "versionName": "0.1.39-dev",
+      "versionCode": 39,
       "channel": "dev",
-      "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.33-dev/honghong-0.1.33-dev.apk",
-      "apkName": "honghong-0.1.33-dev.apk",
-      "sha256": "e48b436ec4b165c707c816c7f3e820e1300e6fa20fc68cc442a18fbf40922d64",
-      "size": 23407012,
-      "changelog": "- 兼容线上未跑 0004 的 push_baby——带 gender 得到 PGRST202 时退回 4 参数，避免家庭同步整体失败",
+      "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.39-dev/honghong-0.1.39-dev.apk",
+      "apkName": "honghong-0.1.39-dev.apk",
+      "sha256": "d9933056546994f49e38542e3372b427e746508a95154827fa17e45b536d96a1",
+      "size": 23419044,
+      "changelog": "- Hh 逐字段插值，日夜切换整页 400ms 过渡，减少动态时瞬切\n- 首页动效（按钮按压/呼吸光环、快捷区与状态栏切换、新记录高亮、日夜图标、减少动态与语义）",
       "minSupportedVersionCode": 0,
       "force": false,
-      "commit": "a453aa7499f389d36d5512ab5faa670955dcf111",
-      "publishedAt": "2026-10-14T16:33:06Z"
+      "commit": "9705f9216a671bfbb829dd05db5277fe5f1c6c5b",
+      "publishedAt": "2026-10-15T08:31:09Z"
     }
   }
 }

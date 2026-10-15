@@ -1,30 +1,30 @@
 {
-  "versionName": "0.1.39-dev",
-  "versionCode": 39,
+  "versionName": "0.1.44-dev",
+  "versionCode": 44,
   "channel": "dev",
-  "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.39-dev/honghong-0.1.39-dev.apk",
-  "apkName": "honghong-0.1.39-dev.apk",
-  "sha256": "d9933056546994f49e38542e3372b427e746508a95154827fa17e45b536d96a1",
-  "size": 23419044,
-  "changelog": "- Hh 逐字段插值，日夜切换整页 400ms 过渡，减少动态时瞬切\n- 首页动效（按钮按压/呼吸光环、快捷区与状态栏切换、新记录高亮、日夜图标、减少动态与语义）",
+  "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.44-dev/honghong-0.1.44-dev.apk",
+  "apkName": "honghong-0.1.44-dev.apk",
+  "sha256": "df91c8cc4bd75747b6ae2c62194f4fe13e3acff31ecc9d6ab98c74b9884eb4e4",
+  "size": 23421148,
+  "changelog": "- 发布构建缺 AI_GATEWAY_URL 导致按住说话联网识别/整理不可用；默认取 Supabase 同域 /ai/ (#20)",
   "minSupportedVersionCode": 0,
   "force": false,
-  "commit": "9705f9216a671bfbb829dd05db5277fe5f1c6c5b",
-  "publishedAt": "2026-10-15T08:31:09Z",
+  "commit": "557c9cb59e699af42228c367cfa43f93f7751c0f",
+  "publishedAt": "2026-10-15T09:22:32Z",
   "channels": {
     "dev": {
-      "versionName": "0.1.39-dev",
-      "versionCode": 39,
+      "versionName": "0.1.44-dev",
+      "versionCode": 44,
       "channel": "dev",
-      "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.39-dev/honghong-0.1.39-dev.apk",
-      "apkName": "honghong-0.1.39-dev.apk",
-      "sha256": "d9933056546994f49e38542e3372b427e746508a95154827fa17e45b536d96a1",
-      "size": 23419044,
-      "changelog": "- Hh 逐字段插值，日夜切换整页 400ms 过渡，减少动态时瞬切\n- 首页动效（按钮按压/呼吸光环、快捷区与状态栏切换、新记录高亮、日夜图标、减少动态与语义）",
+      "apkUrl": "https://github.com/JiHe021499/honghong-releases/releases/download/v0.1.44-dev/honghong-0.1.44-dev.apk",
+      "apkName": "honghong-0.1.44-dev.apk",
+      "sha256": "df91c8cc4bd75747b6ae2c62194f4fe13e3acff31ecc9d6ab98c74b9884eb4e4",
+      "size": 23421148,
+      "changelog": "- 发布构建缺 AI_GATEWAY_URL 导致按住说话联网识别/整理不可用；默认取 Supabase 同域 /ai/ (#20)",
       "minSupportedVersionCode": 0,
       "force": false,
-      "commit": "9705f9216a671bfbb829dd05db5277fe5f1c6c5b",
-      "publishedAt": "2026-10-15T08:31:09Z"
+      "commit": "557c9cb59e699af42228c367cfa43f93f7751c0f",
+      "publishedAt": "2026-10-15T09:22:32Z"
     }
   }
 }
